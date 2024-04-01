@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.RandstadApp1" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.RandstadApp1" parent="Base.Theme.RandstadApp1" />
+    <style name="myStyle" parent="Base.Theme.RandstadApp1">
+        <item name="android:textColor">#f00</item>
+    <item name="android:textSize">20dp</item>
+
+<!--        <item name="android:backgroundTint">#AA2A13</item>-->
+    </style>
+    <style name = "mySnackBar" parent ="Base.Theme.RandstadApp1">
+        <item name ="android:background">#AA2A13</item>
+    </style>
+</resources>
